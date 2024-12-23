@@ -381,7 +381,7 @@
 
 @media (max-width: 411px) {
     .background-container {
-        position: absolute; 
+        position:relative; 
         background-image: url(../image/header/1.png); 
         background-size: cover; 
         width: 100%;
@@ -399,7 +399,7 @@
     
     .mobile-nav-button {
         display: block; 
-        position: relative; 
+        position: absolute; 
         top: 20px; 
         right: 20px;
         width: 40px; 
