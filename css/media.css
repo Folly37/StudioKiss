@@ -1,0 +1,263 @@
+@media(max-width: 1200px) {
+    .container {
+    width: 80%;
+    }
+    .about__title {
+        font-size: 30px;
+    }
+    .nav__list {
+        justify-content: space-between;
+    }
+    
+}
+
+@media(max-width: 991px) {
+    .container {
+        width: 75%;
+        margin:0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .slideshow__header {
+        height: 400px;
+    }
+    .slideshow__item{
+        height: 400px;
+    }
+    .about__title {
+        font-size: 25px;
+    }
+    
+    .price__subtitle {
+        font-size: 20px;
+    }
+    .price__title {
+        font-size: 14px;
+    }
+    .logo__nav {
+        font-size: 25px;
+    }
+    .nav__link {
+        font-size: 16px;
+    }
+    .inst__logo {
+        width: 30px;
+    }
+    .header__subtitle {
+        font-size: 40px;
+    }
+    .transparent-button {
+        width: 350px;
+    }
+}
+
+@media(max-width:771px) {
+    .container {
+        width: 85%;
+        margin:0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .nav__list {
+        display: flex;
+        justify-content: center;
+        column-gap: 30px;
+        row-gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .nav__item {
+        margin: 0;
+        padding: 0;
+    }
+
+    .about__title {
+        font-size: 20px;
+    } 
+
+    .price__block {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .price__txt {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .price__subtitle {
+        font-size: 27px;
+    }
+
+    .price__title {
+        font-size: 20px;
+    }
+
+    .price__gallery__item {
+        flex: 1 1 100%; 
+        margin: 10px 0; 
+    }
+
+    .price__gallery__list {
+        flex-direction: column; 
+        align-items: center; 
+    }
+    .gallery__item {
+        flex: 1 1 55%; 
+    }
+    .img__project {
+        height: 450px;
+    }
+    .nav__list {
+        justify-content: space-between;
+    }
+    .nav__link {
+        font-size: 16px;
+    }
+    .inst__logo {
+        width: 25px;
+    }
+    .header__subtitle {
+        font-size: 30px;
+    }
+    .transparent-button {
+        width: 320px;
+    }
+
+
+}
+
+@media(max-width: 500px) {
+    .nav__block {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .nav__item {
+        display: block; 
+        margin: 5px 0; 
+    }
+
+    .nav__link {
+        font-size: 16px; 
+        margin-top: 0;
+    }
+    .studio__block {
+        flex-wrap: wrap;
+    }
+
+    .contact__block {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .instagram__logo {
+        width: 20px; 
+    }
+
+    .kiss__logo {
+        width: 100px;
+    }
+
+    .nav__subtitile {
+        font-size: 36px;
+        line-height: 44px; 
+    }
+
+    .instagram__title {
+        font-size: 14px; 
+    }
+
+    .about__title {
+        font-size: 25px;
+    } 
+    .slideshow__header {
+        height: 300px;
+    }
+    .slideshow__item{
+        height: 300px;
+    }
+    
+    .price__subtitle {
+        font-size: 22px;
+    }
+    .price__title {
+        font-size: 18px;
+    }
+    .text-left {
+        font-size: 15px;
+    }
+    .text-right {
+        font-size: 15px;
+    }
+    .text__right__price {
+        font-size: 15px;
+    }
+    .img__project {
+        height: 300px;
+    }
+    .studio__subtitle {
+        font-size: 35px;
+    }
+    .subtitle__price__block {
+        font-size: 35px;
+    }
+    .contact__subtitle {
+        font-size: 35px;
+    }
+    .contact__title {
+        font-size: 18px;
+    }
+    .form-group {
+        display: flex;
+        flex-direction: column; 
+        width: 95%; 
+    }
+    button {
+        width: 90%;
+        margin-left: 20px;
+    }
+    .gallery__item {
+        flex: 1 1 100%; 
+    }
+    .kiss__subtitile {
+        font-size: 15px;
+    }
+    .white__txt {
+        font-size: 12px;
+    }
+    .gray__txt {
+        font-size: 15px;
+    }
+    .subtitle__price__block {
+        font-size: 35px;
+    }
+    .form__subtitle {
+        font-size: 35px;
+    }
+    .gallery__subtitle {
+        font-size: 35px;
+    }
+    .about__subtitle {
+        font-size: 35px;
+    }
+    .nav__list {
+        justify-content: space-between;
+    }
+    .nav__link {
+        font-size: 16px;
+    }
+    .inst__logo {
+        width: 25px;
+    }
+    .header__subtitle {
+        font-size: 26px;
+    }
+    .transparent-button {
+        width: 250px;
+    }
+}
+
