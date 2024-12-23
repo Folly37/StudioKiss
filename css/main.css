@@ -281,6 +281,8 @@ h1 {
 .form__block {
     display: flex;
     flex-direction: column; 
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 .form-group {
@@ -330,7 +332,6 @@ button {
     text-align: center;
 }
 
-
 .contact1__block {
     justify-content: center;
     margin-bottom: 120px ;
@@ -369,7 +370,6 @@ button {
     justify-content: center;
 }
 
-
 .kiss__subtitile {
     color: rgb(255, 255, 255);
     font-family: Inter;
@@ -379,17 +379,6 @@ button {
     letter-spacing: 4px;
     text-align: left;
     text-transform: uppercase;
-    margin-bottom: 20px;
-}
-
-.white__txt {
-    color: rgb(255, 255, 254);
-    font-family: Inter;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
     margin-bottom: 20px;
 }
 
@@ -466,41 +455,6 @@ button {
 .price__gallery__item img {
     width: 100%; 
     height: auto; 
-}
-
-.footer__adress {
-    margin-right: 20px; 
-}
-
-.gray__txt {
-    color: rgba(255, 255, 254, 0.404);
-    font-family: Inter;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
-    margin-bottom: 20px;
-}
-
-
-.contact__instagram {
-    margin-bottom: 20px;
-}
-
-.contact__link {
-    display: flex; 
-    align-items: center; 
-    text-decoration: none; 
-    color: rgb(255, 255, 255); 
-    transition: transform 0.3s ease;
-}
-
-.contact__instagram {
-    width: 24px;
-    height: 24px;
-    margin-right: 8px; 
-    transition: transform 0.3s ease;
 }
 
 .project__title {
@@ -597,4 +551,49 @@ button {
 
 .footer__kiss {
     margin-right: 20px
+}
+
+.footer__adress {
+    margin-right: 20px; 
+}
+
+.gray__txt {
+    color: rgba(255, 255, 254, 0.404);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.white__txt {
+    color: rgb(255, 255, 254);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.contact__instagram {
+    margin-bottom: 20px;
+}
+
+.contact__link {
+    display: flex; 
+    align-items: center; 
+    text-decoration: none; 
+    color: rgb(255, 255, 255); 
+    transition: transform 0.3s ease;
+}
+
+.contact__instagram {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px; 
+    transition: transform 0.3s ease;
 }
