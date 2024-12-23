@@ -381,7 +381,7 @@
 
 @media (max-width: 411px) {
     .background-container {
-        position: relative; 
+        position: absolute; 
         background-image: url(../image/header/1.png); 
         background-size: cover; 
         width: 100%;
