@@ -8,7 +8,6 @@
     .nav__list {
         justify-content: space-between;
     }
-    
 }
 
 @media(max-width: 991px) {
@@ -127,7 +126,10 @@
         width: 320px;
     }
 
+}
 
+.mobile-nav-button {
+    display: none; /* Скрыть кнопку по умолчанию */
 }
 
 @media(max-width: 500px) {
@@ -259,5 +261,271 @@
     .transparent-button {
         width: 250px;
     }
+    .nav__link {
+        display: none; /* Скрыть весь список навигации */
+    }
+    
+    .mobile-nav-button {
+        display: block; 
+        position: absolute; 
+        top: 20px; 
+        right: 20px; 
+        width: 40px; 
+        height: 40px; 
+        color: #fff; 
+        border: none; 
+        padding: 0; 
+        font-size: 24px; 
+        cursor: pointer;
+        z-index: 1000;
+        transition: transform 0.3s; 
+        background: none; 
+        margin-top: 40px;
+    }
+    
+    .mobile-nav-button:hover {
+        background: none;
+        transform: scale(1.1); 
+    }
+
+    .close-btn {
+        display: block; 
+        position: absolute; 
+        top: 20px; 
+        right: 20px; 
+        width: 40px;
+        height: 40px;
+        color: #fff;
+        border: none;
+        padding: 0;
+        font-size: 24px;
+        cursor: pointer;
+        z-index: 1000;
+        transition: transform 0.3s;
+        background: none;
+    }
+
+    .close-btn:hover {
+        background: none;
+        transform: scale(1.1);
+    }
+
+    
+    .sidebar {
+        position: fixed;
+        top: 0;
+        right: -250px; 
+        width: 250px;
+        height: 100%;
+        background-color: #333;
+        color: white;
+        transition: right 0.3s ease; 
+        z-index: 1000;
+
+    }
+    .nav__link {
+        color: white; 
+        text-decoration: none; 
+    }
+    
+    .nav__link:hover {
+        text-decoration: underline; 
+    }
+    
+    .sidebar {
+        color: white;
+    }
+
+    .siderbar__item {
+        font-size: 25px;
+        font-family: Inter;
+        margin: 20px;
+        margin-top: 35px;
+        margin-bottom: 10px;
+        font-weight: 300;
+    }
+    .sidebar__list {
+        margin-top: 100px;
+    }
+
+    .sidebar__list2 {
+        margin-top: 450px;
+    }
+    .siderbar__item2 {
+        font-size: 15px;
+        font-family: Inter;
+        margin: 20px;
+        font-weight: 200;
+    }
+
+    .sidebar__link2 {
+        padding-top: 100px;
+    }
+
+    
+    .sidebar ul li a {
+        color: white; 
+        text-decoration: none; /
+        
+    }
+    
+    .sidebar ul li a:hover {
+        text-decoration: underline; 
+    }
+
+    .header__subtitle {
+        font-size: 35px;
+    }
 }
 
+
+@media (max-width: 411px) {
+    .background-container {
+        position: relative; 
+        background-image: url(../image/header/1.png); 
+        background-size: cover; 
+        width: 100%;
+        height: 100vh;
+        overflow: hidden; 
+    }
+
+    .header__subtitle {
+        font-size: 30px;
+    }
+
+    .nav__link {
+        display: none; 
+    }
+    
+    .mobile-nav-button {
+        display: block; 
+        position: absolute; 
+        top: 20px; 
+        right: 20px;
+        width: 40px; 
+        height: 40px; 
+        color: #fff; 
+        border: none; 
+        padding: 0; 
+        font-size: 24px; 
+        cursor: pointer;
+        z-index: 1000;
+        transition: transform 0.3s; 
+        background: none; 
+        margin-top: 40px;
+    }
+    
+    .mobile-nav-button:hover {
+        background: none;
+        transform: scale(1.1); 
+    }
+
+    .close-btn {
+        display: block; 
+        position: absolute; 
+        top: 20px; 
+        right: 20px; 
+        width: 40px;
+        height: 40px;
+        color: #fff;
+        border: none;
+        padding: 0;
+        font-size: 24px;
+        cursor: pointer;
+        z-index: 1000;
+        transition: transform 0.3s;
+        background: none;
+    }
+
+    .close-btn:hover {
+        background: none;
+        transform: scale(1.1);
+    }
+
+    
+    .sidebar {
+        position: fixed;
+        top: 0;
+        right: -250px; 
+        width: 250px;
+        height: 100%;
+        background-color: #333;
+        color: white;
+        transition: right 0.3s ease; 
+        z-index: 1000;
+
+    }
+    .nav__link {
+        color: white; 
+        text-decoration: none; 
+    }
+    
+    .nav__link:hover {
+        text-decoration: underline; 
+    }
+    
+    .sidebar {
+        color: white;
+    }
+
+    .siderbar__item {
+        font-size: 25px;
+        font-family: Inter;
+        margin: 20px;
+        margin-top: 35px;
+        margin-bottom: 10px;
+        font-weight: 300;
+    }
+    .sidebar__list {
+        margin-top: 100px;
+    }
+
+    .sidebar__list2 {
+        margin-top: 450px;
+    }
+    .siderbar__item2 {
+        font-size: 15px;
+        font-family: Inter;
+        margin: 20px;
+        font-weight: 200;
+    }
+
+    .sidebar__link2 {
+        padding-top: 100px;
+    }
+
+    
+    .sidebar ul li a {
+        color: white; 
+        text-decoration: none; /
+        
+    }
+    
+    .sidebar ul li a:hover {
+        text-decoration: underline; 
+    }
+
+    .about__title {
+        font-size: 23px;
+    }
+}
+
+
+
+
+@media (min-width: 500px) {
+    .sidebar {
+        display: none; /* Скрыть сайдбар на экранах шире 411px */
+    }
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: -250px; /* Скрываем сайдбар за пределами экрана */
+    width: 250px;
+    height: 100%;
+    background-color: #333; /* Цвет фона сайдбара */
+    color: white;
+    transition: right 0.3s ease; /* Плавный переход */
+    z-index: 1000;
+}
