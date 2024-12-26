@@ -12,5 +12,6 @@
                     <li class="siderbar__item2"><a class="sidebar__link2" href="#">studiokiss@gmail.com</a></li>
                     <li class="siderbar__item2"><a class="sidebar__link2" href="#"><img class="inst__logo" src="image/instwhite.png" alt=""></a></li>
                 </ul>
+                
             </div>
         </div>

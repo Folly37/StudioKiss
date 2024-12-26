@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StudioKiss</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/animation.css">
-    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/reset.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/main.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/animation.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/media.css">
 </head>
 <body>
 
@@ -19,14 +19,14 @@
                     <ul class="nav__list">
                         <li class="nav__item"><p class="logo__nav">Studio Kiss</p></li>
                         <li class="nav__item"><a class="nav__link" href="#">+7 (912) 991 11 02</a></li>
-                        <li class="nav__item"><a class="nav__link" href="#"><img class="inst__logo" src="image/instwhite.png" alt="Instagram"></a></li>
+                        <li class="nav__item"><a class="nav__link" href="#"><img class="inst__logo" src="<?php echo get_template_directory_uri() ?>/image/instwhite.png" alt="Instagram"></a></li>
                     </ul>
                     <hr>
                     <ul class="nav__list nav__list--main">
-                        <li class="nav__item2"><a class="nav__link" href="index.html">Главная</a></li>
-                        <li class="nav__item2"><a class="nav__link" href="about.html">О нас</a></li>
-                        <li class="nav__item2"><a class="nav__link" href="price.html">Наши услуги</a></li>
-                        <li class="nav__item2"><a class="nav__link" href="contacts.html">Контакты</a></li>
+                        <li class="nav__item2"><a class="nav__link" href="<?php echo get_template_directory_uri() ?>/index.html">Главная</a></li>
+                        <li class="nav__item2"><a class="nav__link" href="<?php echo get_template_directory_uri() ?>/about.html">О нас</a></li>
+                        <li class="nav__item2"><a class="nav__link" href="<?php echo get_template_directory_uri() ?>/price.html">Наши услуги</a></li>
+                        <li class="nav__item2"><a class="nav__link" href="<?php echo get_template_directory_uri() ?>/contacts.html">Контакты</a></li>
                     </ul>
                 </div>
             </div>
@@ -46,15 +46,15 @@
             <button class="close-btn" id="close-btn">×</button>
             <div class="sidebar-content">
                 <ul class="sidebar__list">
-                    <li class="siderbar__item"><a class="sidebar__link" href="index.html">Главная</a></li>
-                    <li class="siderbar__item"><a class="sidebar__link" href="about.html">О нас</a></li>
-                    <li class="siderbar__item"><a class="sidebar__link" href="price.html">Наши услуги</a></li>
-                    <li class="siderbar__item"><a class="sidebar__link" href="contact.html">Контакты</a></li>
+                    <li class="siderbar__item"><a class="sidebar__link" href="<?php echo get_template_directory_uri() ?>/index.html">Главная</a></li>
+                    <li class="siderbar__item"><a class="sidebar__link" href="<?php echo get_template_directory_uri() ?>/about.html">О нас</a></li>
+                    <li class="siderbar__item"><a class="sidebar__link" href="<?php echo get_template_directory_uri() ?>/price.html">Наши услуги</a></li>
+                    <li class="siderbar__item"><a class="sidebar__link" href="<?php echo get_template_directory_uri() ?>/contact.html">Контакты</a></li>
                 </ul>
                 <ul class="sidebar__list2">
                     <li class="siderbar__item2"><a class="sidebar__link2" href="#">+7 (912) 991 11 02</a></li>
                     <li class="siderbar__item2"><a class="sidebar__link2" href="#">studiokiss@gmail.com</a></li>
-                    <li class="siderbar__item2"><a class="sidebar__link2" href="#"><img class="inst__logo" src="image/instwhite.png" alt=""></a></li>
+                    <li class="siderbar__item2"><a class="sidebar__link2" href="#"><img class="inst__logo" src="<?php echo get_template_directory_uri() ?>/image/instwhite.png" alt=""></a></li>
                 </ul>
                 
             </div>
@@ -70,3 +70,5 @@
             });
         </script>
     </div>
+	</body>
+	</html>
