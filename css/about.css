@@ -99,10 +99,9 @@
 .about__title {
     color: rgb(68, 68, 68);
     font-family: Inter;
-    font-size: 34px;
+    font-size: 30px;
     font-weight: 200;
-    line-height: 51px;
-    letter-spacing: -1px;
+    line-height: 50px;
     text-align: center;
     justify-content: center;
     margin-bottom: 120px;
@@ -178,4 +177,16 @@
     text-align: left;
     text-transform: uppercase;
     margin-bottom: 20px;
+}
+
+.about__block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about__img1 {
+    width: 80%;
 }

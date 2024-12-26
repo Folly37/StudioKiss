@@ -180,7 +180,7 @@
         text-decoration: underline; 
     }
     .nav__link {
-        display: none; /* Скрыть весь список навигации */
+        display: none; 
     }
     .mobile-nav-button {
         display: block; 
@@ -227,9 +227,38 @@
         background: none;
         transform: scale(1.1);
     }
-
+    .footer__block {
+        display: flex;
+        flex-wrap: wrap ;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .gray__txt {
+        text-align: center;
+        font-size: 22px;
+    }
+    .white__txt {
+        text-align: center;
+        font-size: 22px;
+    }
+    .contact__link {
+        justify-content: center;
+    }
+    .kiss__subtitile {
+        font-size: 35px;
+    }
+    .contact__instagram {
+        width: 30px;
+        height: 30px;
+    }
+    .footer__adress {
+        margin-top: 20px;
+    }
+    .footer__contact {
+        margin-top: 20px;
+    }
 }
-
 
 
 @media(max-width: 500px) {
@@ -362,7 +391,7 @@
         width: 250px;
     }
     .nav__link {
-        display: none; /* Скрыть весь список навигации */
+        display: none; 
     }
     
     .mobile-nav-button {
@@ -462,7 +491,6 @@
         padding-top: 100px;
     }
 
-    
     .sidebar ul li a {
         color: white; 
         text-decoration: none; /
@@ -493,6 +521,36 @@
     }
     .kiss__subtitile {
         font-size: 20px;
+    }
+    .contact__instagram {
+        width: 20px;
+        height: 20px;
+    }
+    .about__title {
+        font-size: 20px;
+        font-weight: 200;
+        line-height: 35px;
+        margin-bottom: 120px;
+    }
+    .footer__block {
+        display: flex;
+        flex-wrap: wrap ;
+        justify-content: center;
+        align-items: center;
+    }
+    .gray__txt {
+        text-align: center;
+        font-size: 15px;
+    }
+    .white__txt {
+        text-align: center;
+        font-size: 15px;
+    }
+    .contact__link {
+        justify-content: center;
+    }
+    .kiss__subtitile {
+        font-size: 25px;
     }
     .contact__instagram {
         width: 20px;
@@ -653,7 +711,6 @@
         height: 20px;
     }
 }
-
 
 @media (min-width: 771px) {
     .sidebar {
