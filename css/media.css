@@ -7,6 +7,12 @@
     }
     .nav__list {
         justify-content: space-between;
+        display: flex;
+        row-gap: 10px;
+        flex-wrap: wrap;
+    }
+    .nav__link {
+        font-size: 18px;
     }
 }
 
@@ -39,7 +45,12 @@
         font-size: 25px;
     }
     .nav__link {
-        font-size: 16px;
+        font-size: 19px;
+    }
+    .nav__list {
+        display: flex;
+        row-gap: 10px;
+        flex-wrap: wrap;
     }
     .inst__logo {
         width: 30px;
@@ -376,6 +387,28 @@
     .header__subtitle {
         font-size: 35px;
     }
+    .footer__block {
+        display: flex;
+        flex-wrap: wrap ;
+        justify-content: center;
+        align-items: center;
+    }
+    .gray__txt {
+        text-align: center;
+    }
+    .white__txt {
+        text-align: center;
+    }
+    .contact__link {
+        justify-content: center;
+    }
+    .kiss__subtitile {
+        font-size: 20px;
+    }
+    .contact__instagram {
+        width: 20px;
+        height: 20px;
+    }
 }
 
 
@@ -508,6 +541,28 @@
     .about__title {
         font-size: 23px;
     }
+    .footer__block {
+        display: flex;
+        flex-wrap: wrap ;
+        justify-content: center;
+        align-items: center;
+    }
+    .gray__txt {
+        text-align: center;
+    }
+    .white__txt {
+        text-align: center;
+    }
+    .contact__link {
+        justify-content: center;
+    }
+    .kiss__subtitile {
+        font-size: 20px;
+    }
+    .contact__instagram {
+        width: 20px;
+        height: 20px;
+    }
 }
 
 
@@ -515,17 +570,17 @@
 
 @media (min-width: 500px) {
     .sidebar {
-        display: none; /* Скрыть сайдбар на экранах шире 411px */
+        display: none; 
     }
 }
 .sidebar {
     position: fixed;
     top: 0;
-    right: -250px; /* Скрываем сайдбар за пределами экрана */
+    right: -250px;
     width: 250px;
     height: 100%;
-    background-color: #333; /* Цвет фона сайдбара */
+    background-color: #333; 
     color: white;
-    transition: right 0.3s ease; /* Плавный переход */
+    transition: right 0.3s ease; 
     z-index: 1000;
 }

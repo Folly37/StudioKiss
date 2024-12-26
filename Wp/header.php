@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>StudioKiss</title>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/animation.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
+
 
     <div class="background-container">
         <nav class="nav">
@@ -25,7 +26,7 @@
                         <li class="nav__item2"><a class="nav__link" href="index.html">Главная</a></li>
                         <li class="nav__item2"><a class="nav__link" href="about.html">О нас</a></li>
                         <li class="nav__item2"><a class="nav__link" href="price.html">Наши услуги</a></li>
-                        <li class="nav__item2"><a class="nav__link" href="contact.html">Контакты</a></li>
+                        <li class="nav__item2"><a class="nav__link" href="contacts.html">Контакты</a></li>
                     </ul>
                 </div>
             </div>
@@ -69,46 +70,3 @@
             });
         </script>
     </div>
-    <section id="contact">
-        <div class="container">
-        <div class="contact1__block">
-            <h1 class="contact__subtitle">
-                Контакты
-            </h1>
-                <p class="contact__title">
-                    Санкт-Петербург, ул. Руставели 33, офис 224
-                </p>
-                <p class="contact__title">
-                    Телефон: 8(812) 873-37-46
-                </p>
-                <p class="contact__title">
-                    e-mail: studiokiss@gmail.com
-                </p>
-        </div>
-    </div>
-</div>
-    </section>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__block">
-                <div class="footer__kiss">
-                    <p class="kiss__subtitile">StudioKiss</p>
-                    <p class="white__txt">Фотостудия для всей семьи</p>
-                </div>
-                <div class="footer__adress">
-                    <p class="gray__txt">Адрес</p>
-                    <p>Санкт-Петербург, ул. Руставели 33, офис 224</p>
-                </div>
-                <div class="footer__contact">
-                    <p class="gray__txt">Контактные данные</p>
-                    <a class="contact__link" href="https://instagram.com/studiokissspb?igshid=YzdkMWQ2MWU="><img class="contact__instagram" src="image/instwhite.png" alt=""><p class="white__txt">instagram</p></a>
-                    <p class="white__txt">Телефон: 8(812) 873-37-46</p>
-                    <p class="white__txt">e-mail: studiokiss@gmail.com</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-</body>
-</html>
