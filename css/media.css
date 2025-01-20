@@ -590,7 +590,7 @@
     }
 
     .sidebar__list2 {
-        margin-top: 450px;
+        margin-top: 280px;
     }
     .siderbar__item2 {
         font-size: 15px;
@@ -605,7 +605,7 @@
 
     .sidebar ul li a {
         color: white; 
-        text-decoration: none; /
+        text-decoration: none; 
         
     }
     
@@ -639,11 +639,16 @@
         height: 20px;
     }
     .about__title {
-        font-size: 20px;
+        font-size: 22px;
+        text-align: left;
         font-weight: 200;
-        line-height: 35px;
+        line-height: 40px;
         margin-bottom: 120px;
     }
+    .about__block {
+        margin-bottom: 20px;
+    }
+
     .footer__block {
         display: flex;
         flex-wrap: wrap ;
@@ -668,10 +673,16 @@
         width: 20px;
         height: 20px;
     }
+    .transparent-button {
+        margin-bottom: 80px ;
+        margin-left: 10px;
+    }
 }
 
-
 @media (max-width: 411px) {
+    .container {
+        width: 90%;
+    }
     .background-container {
         position:relative; 
         background-image: url(../image/header/1.png); 
@@ -680,6 +691,7 @@
         height: 100%;
         overflow: hidden; 
     }
+
 
     .header__subtitle {
         font-size: 30px;
@@ -822,7 +834,169 @@
         width: 20px;
         height: 20px;
     }
+    .transparent-button {
+        margin-bottom: 80px ;
+        margin-left: 10px;
+    }
 }
+
+
+@media (max-width: 320px) {
+        .container {
+        width: 90%;
+    }
+
+    .background-container {
+        position:relative; 
+        background-image: url(../image/header/1.png); 
+        background-size: cover; 
+        width: 100%;
+        height: 100%;
+        overflow: hidden; 
+    }
+
+    .header__subtitle {
+        font-size: 30px;
+    }
+
+    .nav__link {
+        display: none; 
+    }
+    
+    .mobile-nav-button {
+        display: block; 
+        position: absolute; 
+        top: 20px; 
+        right: 20px;
+        width: 40px; 
+        height: 40px; 
+        color: #fff; 
+        border: none; 
+        padding: 0; 
+        font-size: 24px; 
+        cursor: pointer;
+        z-index: 1000;
+        transition: transform 0.3s; 
+        background: none; 
+        margin-top: 40px;
+    }
+    
+    .mobile-nav-button:hover {
+        background: none;
+        transform: scale(1.1); 
+    }
+
+    .close-btn {
+        display: block; 
+        position: absolute; 
+        top: 20px; 
+        right: 20px; 
+        width: 40px;
+        height: 40px;
+        color: #fff;
+        border: none;
+        padding: 0;
+        font-size: 24px;
+        cursor: pointer;
+        z-index: 1000;
+        transition: transform 0.3s;
+        background: none;
+    }
+
+    .close-btn:hover {
+        background: none;
+        transform: scale(1.1);
+    }
+
+    
+    .sidebar {
+        position: fixed;
+        top: 0;
+        right: -250px; 
+        width: 250px;
+        height: 100%;
+        background-color: #333;
+        color: white;
+        transition: right 0.3s ease; 
+        z-index: 1000;
+
+    }
+    .nav__link {
+        color: white; 
+        text-decoration: none; 
+    }
+    
+    .nav__link:hover {
+        text-decoration: underline; 
+    }
+    
+    .sidebar {
+        color: white;
+    }
+
+    .siderbar__item {
+        font-size: 25px;
+        font-family: Inter;
+        margin: 20px;
+        margin-top: 35px;
+        margin-bottom: 10px;
+        font-weight: 300;
+    }
+    .sidebar__list {
+        margin-top: 100px;
+    }
+
+    .sidebar__list2 {
+        margin-top: 250px;
+    }
+    .siderbar__item2 {
+        font-size: 15px;
+        font-family: Inter;
+        margin: 20px;
+        font-weight: 200;
+    }
+
+    .sidebar__link2 {
+        padding-top: 100px;
+    }
+
+    .sidebar ul li a {
+        color: white; 
+        text-decoration: none; 
+        
+    }
+    
+    .sidebar ul li a:hover {
+        text-decoration: underline; 
+    }
+
+    .about__title {
+        font-size: 23px;
+    }
+    .footer__block {
+        display: flex;
+        flex-wrap: wrap ;
+        justify-content: center;
+        align-items: center;
+    }
+    .gray__txt {
+        text-align: center;
+    }
+    .white__txt {
+        text-align: center;
+    }
+    .contact__link {
+        justify-content: center;
+    }
+    .kiss__subtitile {
+        font-size: 20px;
+    }
+    .contact__instagram {
+        width: 20px;
+        height: 20px;
+    }
+}
+
 
 @media (min-width: 991px) {
     .sidebar {
